@@ -1,0 +1,186 @@
+.main {
+  height: 220%;
+  margin-bottom: 10%;
+}
+
+.fakeimg {
+  height: 200px;
+  background: #aaa;
+}
+.logoPoke img {
+  height: 200px;
+}
+
+.p-5 button {
+  background-color: blue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+/* boton para desplegar la lista */
+.buttonStyle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.listButton{
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  transition: transform 1.1s;
+}
+.listButton img{
+  width: 100%;
+}
+
+.listButton:hover{
+  transform: scale(1.3);
+}
+
+
+
+
+/* propiedades del boton random */
+.btn img {
+  width: 200px;
+  transition: transform 1.9s;
+}
+
+.inputSearch {
+  margin-left: 34%;
+  width: 30%;
+}
+
+/* animacion del botton */
+.btn img:hover {
+  -moz-transition: all 1.3s ease-in-out;
+  -webkit-transition: all 1.3s ease-in-out;
+  -o-transition: all 1.3s ease-in-out;
+  -ms-transition: all 1.3s ease-in-out;
+  transition: all 1.3s ease-in-out;
+  -moz-transform: rotateY(-360deg);
+  -webkit-transform: rotateY(-360deg);
+  -o-transform: rotateY(-360deg);
+  -ms-transform: rotateY(-360deg);
+  transform: rotateY(-360deg);
+}
+.container-fluid img {
+  width: 5%;
+}
+
+.titleList p {
+  font-size: 150%;
+  margin-top: 3%;
+  font-family: "Stainless", sans-serif;
+}
+.divList {
+  /* background-image: url(https://img.freepik.com/foto-gratis/desenfoque-lujo-abstracto-degradado-gris-oscuro-negro-utilizado-como-pared-estudio-fondo-exhibir-sus-productos_1258-71341.jpg?w=2000); */
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+/* este ajusta el contenedor por separado de cada pokemon en la lista */
+.cardl {
+  background-image: url(./images/carta.jpg);
+  background-size: cover;
+  background-position-y: 50%;
+  border-radius: 20px;
+  margin: 5%;
+  width: 20%;
+  cursor: pointer;
+  -moz-transition: all 0.9s;
+  -webkit-transition: all 0.9s;
+  transition: all 0.9s;
+  text-decoration: none;
+}
+/* este ajusta el nombre de los pokemons en la lista */
+.pokeName {
+  margin-top: 5%;
+  text-align: center;
+  font-family: "Stainless", sans-serif;
+  width: 100%;
+  color: black;
+  text-transform: capitalize;
+  text-shadow: 3px 0px 4px rgb(118, 106, 106);
+}
+/* este ajusta la imagen de los pokemons en la lista */
+.pokeImage {
+  height: 200px;
+  width: 200px;
+  margin: 25%;
+  margin-bottom: 10%;
+  object-fit: contain;
+}
+
+.cardl:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  border-radius: 90%;
+  -webkit-border-radius: 100%;
+  box-shadow: 0px 0px 30px 30px #000000;
+  -webkit-box-shadow: 0px 0px 10px 10px #d2e8ec;
+  transform: scale(1.3);
+}
+
+/* ---------------------- estilo de pagina random--------------------------- */
+
+/* .pokeImageRandom{
+  display: flex;
+  margin-left: 40%;
+  width: 20%;
+} */
+
+.style {
+  display: flex;
+  border-radius: 5%;
+  justify-content: center;
+  background-image: url(./images/carta.jpg);
+  background-size: cover;
+  background-position-y: 50%;
+  width: 30%;
+  height: 40%;
+  flex-wrap: wrap;
+  margin-left: 35%;
+}
+
+.legend {
+  font-family: "Stainless", sans-serif;
+  font-size: 20px;
+}
+
+.numberOrder {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 6%;
+}
+
+.return{
+  display: flex;
+  margin-top: 5%;
+  margin-right: 380px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;	
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #000000;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.return:hover {
+  background-color: #e72020;
+  color: #fff;
+}
+  
+
+.return:active {
+  background-color: #e72020;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.cdnfonts.com/css/stainless" rel="stylesheet">
+  <link rel="stylesheet" href="./app/styles/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <title>pokemon Api</title>
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+      <img src="./app/styles/images/logopoke.png" alt="">
+    </div>
+  </nav>
+
+
+  <div class="bg-image" style="background-image: url(./app/styles/images/wallpaper.png);
+  background-size: cover;">
+    <div class="p-5 text-white text-center">
+      <h1 class="logoPoke"><img src="./app/styles/images/logopoke.png" alt=""></h1>
+      <button id="buttom" class="btn bg-transparent border-0" type="submit"><img src="./app/styles/images/pokeball.gif"
+          alt="buttomPokeball"></button>
+    </div>
+  </div>
+
+
+  <nav class="navbar bg-light navbar-dark input-group shadow-lg">
+    <form id="input" class="inputSearch"">
+      <div class=" input-group shadow-lg">
+      <input id="searchBar" type="text" class="form-control" placeholder="Example: pikachu">
+      <button id="buttom" class="btn btn-primary" type="submit">Go</button>
+      </div>
+    </form>
+  </nav>
+
+
+
+  <main id="mainPage" class="main">
+
+    <!-- ---------------------------------section de la lista pokemon---------------------------------------------------- -->
+
+    <section id="sectionMain" class="sectionMain">
+
+      <div id="btt" class="buttonStyle">
+
+        <button id="buttonList" class="listButton border-0 bg-transparent"><img src="./app/styles/images/pokedex.png"
+            alt=""></button>
+
+      </div>
+
+      <div id="divList">
+        <div class="titleList text-center">
+          <p id="titleMain"></p>
+        </div>
+        <div id="listPoke" class="divList"></div>
+      </div>
+
+    </section>
+
+    <!-- ----------------------------------section del buscador------------------------------------------------>
+
+    <section id="pokemonSearch" class="style">
+
+    </section>
+
+    <!-- ------------------------------------section del random-------------------------------------------------->
+
+    <section id="cardRandom" class="style">
+
+    </section>
+
+
+
+  </main>
+
+</body>
+<script type="module" src="./app/index.js"></script>
+
+</html>
